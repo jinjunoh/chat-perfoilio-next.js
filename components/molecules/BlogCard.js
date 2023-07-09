@@ -1,8 +1,8 @@
-import { Box, Button, ButtonBase, Card, Typography } from '@mui/material';
-import Image from 'next/image';
-import React, { useState } from 'react';
-import { Avatar } from '@mui/material';
-import { grey } from '@mui/material/colors';
+import { Box, Button, ButtonBase, Card, Typography } from "@mui/material";
+import Image from "next/image";
+import React, { useState } from "react";
+import { Avatar } from "@mui/material";
+import { grey } from "@mui/material/colors";
 
 function BlogCard({ name, link, imgSrc, isDetailed }) {
   return (
@@ -10,10 +10,10 @@ function BlogCard({ name, link, imgSrc, isDetailed }) {
       variant="outlined"
       sx={{
         padding: 2,
-        display: 'flex',
-        flexDirection: 'row',
+        display: "flex",
+        flexDirection: "row",
         marginBottom: 1,
-        border: isDetailed ? 'none' : '',
+        border: isDetailed ? "none" : "",
       }}
       width="100%"
     >
@@ -28,9 +28,9 @@ function BlogCard({ name, link, imgSrc, isDetailed }) {
         <Typography variant="h6">{name}</Typography>
         <ButtonBase
           sx={{
-            width: 'fit-content',
-            textTransform: 'none',
-            cursor: 'pointer',
+            width: "fit-content",
+            textTransform: "none",
+            cursor: "pointer",
           }}
         >
           <a href={link} target="_blank" rel="noreferrer">

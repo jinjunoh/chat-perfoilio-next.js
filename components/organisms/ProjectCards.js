@@ -7,7 +7,7 @@ const experiences = [
     position: 'MedChain',
     date: 'Feb 2022 - Apr 2022',
     imgSrc: 'medchain.jpg',
-    link: 'https://devpost.com/software/medchain-k4wzry',
+    // link: 'https://devpost.com/software/medchain-k4wzry',
     works: [
       'Implemented Solitidy smart contracts to store medical records on Interplanetary File System and link to a user block on Ethureum blockchain, allowing patients to own their medical records independent from hospitals',
       'Built React website to connect with MetaMask for authentication and search on-chain records using Web3.js',
@@ -19,7 +19,7 @@ const experiences = [
     position: 'UCLA CAT',
     date: 'May 2022 - Jul 2022',
     imgSrc: 'uclacat.png',
-    link: 'https://github.com/MubaiHua/ucla-cat',
+    // link: 'https://github.com/MubaiHua/ucla-cat',
     works: [
       'Implemented manipulation of website actions using Python Selenium & ChromeDriver with conditional branching',
       'Automated Mac & Win distributions using Github Action and deployed CronJob on user’s OS to schedule runs',
@@ -30,7 +30,7 @@ const experiences = [
     position: 'Cura',
     date: 'Apr 2022 - Apr 2022',
     imgSrc: 'cura.jpg',
-    link: 'https://www.hackster.io/jeffreythecoder/cura-a-health-emergency-alert-for-seniors-we-care-ee08d1',
+    // link: 'https://www.hackster.io/jeffreythecoder/cura-a-health-emergency-alert-for-seniors-we-care-ee08d1',
     works: [
       "Design and built a smart wrist band that detects the wearer's health emergency and sends SMS alert to emergency contacts",
       "Incorporated Twilio API into WiFi module to send SMS with wearer's location triangulated by WiFi positioning system",
@@ -43,7 +43,7 @@ const experiences = [
     position: 'BruinEats',
     date: 'Feb 2022 - Apr 2022',
     imgSrc: 'bruineats.png',
-    link: 'https://github.com/BruinEats/BruinEats',
+    // link: 'https://github.com/BruinEats/BruinEats',
     works: [
       'Managed 5-dev team, designed database schema, APIs & App structure, and led weekly sprints & code reviews',
       'Implemented web crawer using Puppeteer.js to fetch daily menu and scheduled runs using MongoDB Triggers',
@@ -55,7 +55,7 @@ const experiences = [
     position: 'OnCampus',
     date: 'Oct 2020 - Jan 2021',
     imgSrc: 'oncampus.png',
-    link: 'https://oncampus.us',
+    // link: 'https://oncampus.us',
     works: [
       'Cleaned 800+ unorganized club tags to 30, designed new PostgreSQL schema and implemented React autocomplete form to search and create tags, improving club searching experience for 200+ monthly active users',
       'Enhanced club search with pagination using Django and React, increasing loading speed for search results',
@@ -74,7 +74,7 @@ function ProjectCards({ isDetailed }) {
             date={date}
             imgSrc={imgSrc}
             works={works}
-            link={link}
+            // links={links}
             key={idx}
             isDetailed={isDetailed}
           />

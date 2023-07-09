@@ -3,9 +3,9 @@ import ExperienceCard from '../molecules/ExperienceCard';
 
 const experiences = [
   {
-    name: 'Paramount',
-    position: 'Software Engineer Intern',
-    date: 'Jun 2022 - Aug 2022',
+    name: 'Lenovo',
+    position: 'Intern',
+    date: 'Jun 2021',
     imgSrc: 'paramount.png',
     works: [
       'Delivered internal tool for video content team to create multiple TV series by using React to parse, validate, and upload spreadsheets and show real-time reports for uploads, accelerating workflow to push new content on Paramount+',

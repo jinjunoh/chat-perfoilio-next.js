@@ -162,7 +162,7 @@
 .react-chatbot-kit-chat-inner-container {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: rgb(16, 14, 14);
   border-radius: 3px;
   margin-bottom: 15px;
   border-radius: 5px;
@@ -219,7 +219,7 @@
 }
 
 .react-chatbot-kit-chat-input::placeholder {
-  color: #585858;
+  color: #ffffff;
 }
 
 .react-chatbot-kit-chat-btn-send {
@@ -255,9 +255,9 @@
 .react-chatbot-kit-error-docs {
   display: block;
   margin: 25px auto;
-  color: rgb(56, 104, 139);
+  /* color: rgb(56, 104, 139); */
   padding: 8px;
-  border: 1px solid rgb(40, 152, 236);
+  /* border: 1px solid rgb(40, 152, 236); */
   width: 130px;
   text-align: center;
   text-decoration: none;

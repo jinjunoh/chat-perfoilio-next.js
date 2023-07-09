@@ -1,15 +1,15 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Chatbot from 'react-chatbot-kit';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Chatbot from "react-chatbot-kit";
 
-import config from '../utility/chatbot/config';
-import ActionProvider from '../utility/chatbot/ActionProvider';
-import MessageParser from '../utility/chatbot/MessageParser';
-import LinksBar from '../components/layouts/LinksBar';
-import SectionsBar from '../components/layouts/SectionsBar';
-import useWindowSize from '../hooks/useWindowSize';
-import { Box } from '@mui/system';
-import MobileHeader from '../components/layouts/MobileHeader';
+import config from "../utility/chatbot/config";
+import ActionProvider from "../utility/chatbot/ActionProvider";
+import MessageParser from "../utility/chatbot/MessageParser";
+import LinksBar from "../components/layouts/LinksBar";
+import SectionsBar from "../components/layouts/SectionsBar";
+import useWindowSize from "../hooks/useWindowSize";
+import { Box } from "@mui/system";
+import MobileHeader from "../components/layouts/MobileHeader";
 
 const WebHome = () => {
   return (
@@ -34,11 +34,11 @@ const MobileHome = () => {
   return (
     <Box
       sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        width: '100vw',
-        minHeight: '100vh',
-        height: '100vh',
+        display: "flex",
+        flexDirection: "column",
+        width: "100vw",
+        minHeight: "100vh",
+        height: "100vh",
       }}
     >
       <MobileHeader />
