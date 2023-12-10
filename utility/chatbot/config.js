@@ -53,7 +53,7 @@ const getPersonalOptions = (actionProvider) => {
       id: 3,
     },
     {
-      text: 'Blogs',
+      text: 'Socials',
       handler: () => actionProvider.handleBlogs(),
       id: 4,
     },
@@ -70,14 +70,14 @@ const config = {
       }
     ),
   ],
-  // customStyles: {
-  //   botMessageBox: {
-  //     backgroundColor: '#147efb',
-  //   },
-  //   chatButton: {
-  //     backgroundColor: '#147efb',
-  //   },
-  // },
+  customStyles: {
+    botMessageBox: {
+      backgroundColor: '#147efb',
+    },
+    chatButton: {
+      backgroundColor: '#147efb',
+    },
+  },
   widgets: [
     {
       widgetName: 'moodOptions',

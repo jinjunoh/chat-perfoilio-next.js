@@ -1,14 +1,14 @@
 // import { getProgrammingJoke } from 'random-joke-getter';
 
 const intro =
-  "I'm a Electrical and Computer Engineering student at UT Austin and an aspiring software engineer. What do you want to know about me?";
+  "I'm an ECE Honors student @ UT Austin and an aspiring software engineer. What do you want to know about me?";
 const experience =
-  "I worked as intern at Lenovo and as a Teaching Assistant at D. Lab Coding Academy.";
+  "I am an incoming Software Engeer Intern at LPL Financial and Sage Bionetworks";
 const projects =
   "I'm love spotting problems from people around me and building solutions that make their lives easier.";
 const skills =
   "I have two years of experience in fullstack development. I'm a MERN stack lover (MongoDB, Express, React, Node.js).";
-const blogs = "Check out my blogs on Dev Community and Medium!";
+const blogs = "Check out my Socials!";
 
 class ActionProvider {
   constructor(createChatBotMessage, setStateFunc) {

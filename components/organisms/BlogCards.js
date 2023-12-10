@@ -3,14 +3,19 @@ import BlogCard from '../molecules/BlogCard';
 
 const blogs = [
   {
-    name: 'Dev Community',
-    link: 'https://dev.to/jeffreythecoder',
-    imgSrc: 'dev.png',
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/jin-jun-oh/",
+    imgSrc: "linkedin.png",
   },
   {
-    name: 'Medium',
-    link: 'https://jeffreyzepengyu.medium.com/',
-    imgSrc: 'medium.webp',
+    name: "Instagram",
+    link: "https://www.instagram.com/jj__oh/",
+    imgSrc: "instagram.png",
+  },
+  {
+    name: "Github",
+    link: "https://github.com/jinjunoh/",
+    imgSrc: "github.png",
   },
 ];
 

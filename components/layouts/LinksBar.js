@@ -82,7 +82,7 @@ function LinksBar() {
             </Typography>
           </Box>
           <a
-            href="https://drive.google.com/file/d/1OQRHVV-N5VjExNp8I-TWuXsczOCY21sN/view?usp=sharing"
+            href="https://drive.google.com/file/d/1d0x1pGMw6_c5_dOetNy62FVX_CTt8An0/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
@@ -100,11 +100,7 @@ function LinksBar() {
           <LinkedInIcon sx={{ color: grey[700], width: 30, height: 30 }} />
         </IconButton>
       </a>
-      <a
-        href="https://github.com/jinjunoh/"
-        target="_blank"
-        rel="noreferrer"
-      >
+      <a href="https://github.com/jinjunoh/" target="_blank" rel="noreferrer">
         <IconButton>
           <GitHubIcon sx={{ color: grey[700], width: 30, height: 30 }} />
         </IconButton>

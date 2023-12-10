@@ -34,7 +34,7 @@ function BlogCard({ name, link, imgSrc, isDetailed }) {
           }}
         >
           <a href={link} target="_blank" rel="noreferrer">
-            <Typography color={grey[600]}>See my blogs</Typography>
+            <Typography color={grey[600]}>See what I'm up to</Typography>
           </a>
         </ButtonBase>
       </Box>

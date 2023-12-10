@@ -60,7 +60,7 @@ function MobileSectionsBar() {
         return <ProjectCards isDetailed={true} />;
       case 'Skills':
         return <SkillCards isDetailed={true} />;
-      case 'Blogs':
+      case 'Socials':
         return <BlogCards isDetailed={true} />;
       default:
         return <></>;
@@ -105,13 +105,13 @@ function MobileSectionsBar() {
         </ListItem>
         <ListItem disablePadding>
           <ListItemButton
-            aria-label="blogs"
-            onClick={() => toggleDrawer(true, 'Blogs')}
+            aria-label="socials"
+            onClick={() => toggleDrawer(true, 'Socials')}
           >
             <ListItemIcon>
               <BookOutlinedIcon />
             </ListItemIcon>
-            <ListItemText primary="Blogs" />
+            <ListItemText primary="Socials" />
           </ListItemButton>
         </ListItem>
       </List>

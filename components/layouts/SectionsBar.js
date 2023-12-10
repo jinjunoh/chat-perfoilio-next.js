@@ -54,7 +54,7 @@ function SectionsBar() {
         return <ProjectCards isDetailed={true} />;
       case 'Skills':
         return <SkillCards isDetailed={true} />;
-      case 'Blogs':
+      case 'Socials':
         return <BlogCards isDetailed={true} />;
       default:
         return <></>;
@@ -102,12 +102,12 @@ function SectionsBar() {
       </Tooltip>
 
       <Tooltip
-        title={<span style={{ fontSize: 13 }}>blogs</span>}
+        title={<span style={{ fontSize: 13 }}>socials</span>}
         placement="left"
       >
         <IconButton
-          aria-label="blogs"
-          onClick={() => toggleDrawer(true, 'Blogs')}
+          aria-label="socials"
+          onClick={() => toggleDrawer(true, 'Socials')}
         >
           <BookOutlinedIcon sx={{ color: grey[700], width: 30, height: 30 }} />
         </IconButton>
