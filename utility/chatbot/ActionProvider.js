@@ -3,7 +3,7 @@
 const intro =
   "I'm an ECE Honors student @ UT Austin and an aspiring software engineer. What do you want to know about me?";
 const experience =
-  "I am an incoming Software Engeer Intern at LPL Financial and Sage Bionetworks";
+  "I am an incoming Software Engineer Intern at LPL Financial and Sage Bionetworks";
 const projects =
   "I'm love spotting problems from people around me and building solutions that make their lives easier.";
 const skills =
@@ -58,9 +58,9 @@ class ActionProvider {
 
   handleGoodMoodFinally() {
     const message = this.createChatBotMessage(
-      `Glad you're happy! Let me do a quick self intro: ${intro}`,
-      { widget: "personalOptions" }
-    );
+      `Glad you're happy! Let me do a quick self intro: ${intro}`,{
+        widget: "personalOptions"
+    });
     this.updateChatbotState(message);
   }
 
