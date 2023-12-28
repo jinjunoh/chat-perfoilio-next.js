@@ -31,19 +31,30 @@ class ActionProvider {
   }
 
   async handleBadMood() {
+    // Declare jokeData with a default value
+    let jokeData = { joke: "Sorry, I couldn't fetch a joke for you." };
+
     try {
-      const jokeData = await (
-        await fetch("https://v2.jokeapi.dev/joke/Any?type=single")
-      ).json();
-    } catch{
-      const jokeData = "Error Fetching Joke".json();
+      const response = await fetch(
+        "https://v2.jokeapi.dev/joke/Any?type=single"
+      );
+      if (response.ok) {
+        const data = await response.json();
+        // Update jokeData only if the fetch was successful
+        jokeData = data;
+      } else {
+        console.error("Fetch error: ", response.status);
+      }
+    } catch (error) {
+      // Error handling
+      console.error("Error fetching joke:", error);
     } finally {
       const message = this.createChatBotMessage(
-      `Let me tell you a joke: ${jokeData.joke}`,
-      {
-        widget: "jokeOptions",
-      }
-    );
+        `Let me tell you a joke: ${jokeData.joke}`,
+        {
+          widget: "jokeOptions",
+        }
+      );
       this.updateChatbotState(message);
     }
   }
@@ -63,9 +74,11 @@ class ActionProvider {
 
   handleGoodMoodFinally() {
     const message = this.createChatBotMessage(
-      `Glad you're happy! Let me do a quick self intro: ${intro}`,{
-        widget: "personalOptions"
-    });
+      `Glad you're happy! Let me do a quick self intro: ${intro}`,
+      {
+        widget: "personalOptions",
+      }
+    );
     this.updateChatbotState(message);
   }
 
