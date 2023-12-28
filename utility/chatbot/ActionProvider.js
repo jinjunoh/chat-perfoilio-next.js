@@ -31,16 +31,21 @@ class ActionProvider {
   }
 
   async handleBadMood() {
-    const jokeData = await (
-      await fetch("https://v2.jokeapi.dev/joke/Any?type=single")
-    ).json();
-    const message = this.createChatBotMessage(
+    try {
+      const jokeData = await (
+        await fetch("https://v2.jokeapi.dev/joke/Any?type=single")
+      ).json();
+    } catch{
+      const jokeData = "Error Fetching Joke".json();
+    } finally {
+      const message = this.createChatBotMessage(
       `Let me tell you a joke: ${jokeData.joke}`,
       {
         widget: "jokeOptions",
       }
     );
-    this.updateChatbotState(message);
+      this.updateChatbotState(message);
+    }
   }
 
   async handleBadMoodAgain() {
@@ -62,6 +67,12 @@ class ActionProvider {
         widget: "personalOptions"
     });
     this.updateChatbotState(message);
+  }
+
+  createPersonalOptionsMessage() {
+    return this.createChatBotMessage("What else would you like to know?", {
+      widget: "personalOptions",
+    });
   }
 
   handleExperience() {

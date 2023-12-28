@@ -37,8 +37,9 @@ const experiences = [
     // link: 'https://www.hackster.io/jeffreythecoder/cura-a-health-emergency-alert-for-seniors-we-care-ee08d1',
     works: [
       "Facilitated discussions with front-end team to assess client expectations and constructed Figma wireframe",
-      "Directed modeling of data structures and API endpoints to allow for seamless frontend integration of Firebase",
-      "Redesigned the mobile application to implement server-side rendering with Next.js and monitored traffic using Google Analytics, attracting 58% higher traffic and achieving Lighthouse SEO score of 100",
+      "Directed modeling of data structures and REST API endpoints to allow for seamless frontend integration of Firebase",
+      "Pioneered the transition to server-side rendering using Next.js, optimizing achieving a Lighthouse SEO score of 100",
+      "Utilized Google Analytics for traffic insights, devising strategies that boosted user engagement by 58%",
     ],
   },
 ];

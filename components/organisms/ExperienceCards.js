@@ -7,7 +7,7 @@ const experiences = [
     position: "Incoming Software Engineer Intern",
     date: "Summer 2024",
     imgSrc: "lplfinancial.png",
-    works: ["Doing something awesome"],
+    works: ["Data Analytics Team"],
   },
   {
     name: "Sage Bionetworks",
@@ -22,7 +22,7 @@ const experiences = [
     date: "Jul 2023 - Present",
     imgSrc: "texaslum.png",
     works: [
-      "Leveraged market research and Agile Methodology to drive the product roadmap and successful deployment on AWS",
+      "Minimized latency (30 ms -> 460 μs) inherent in querying data from Amazon RDS utilizing Amazon Elasticache",
       "Designed PostgreSQL relational databases to provide optimized and streamlined queries from clients, APIs, and tests",
       "Developed 30+ core REST APIs using Node.js and facilitated unit testing through Jest with 100% code coverage",
       "Implemented GitHub Actions CI/CD pipeline to automate the execution of unit tests and deployment process",

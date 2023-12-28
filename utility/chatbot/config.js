@@ -61,38 +61,38 @@ const getPersonalOptions = (actionProvider) => {
 };
 
 const config = {
-  botName: 'Jin Jun Oh',
+  botName: "Jin Jun Oh",
   initialMessages: [
     createChatBotMessage(
       "Hi, I'm JJ. Nice to meet you! I How are you doing today?",
       {
-        widget: 'moodOptions',
+        widget: "moodOptions",
       }
     ),
   ],
   customStyles: {
     botMessageBox: {
-      backgroundColor: '#147efb',
+      backgroundColor: "#147efb",
     },
     chatButton: {
-      backgroundColor: '#147efb',
+      backgroundColor: "#147efb",
     },
   },
   widgets: [
     {
-      widgetName: 'moodOptions',
+      widgetName: "moodOptions",
       widgetFunc: ({ actionProvider }) => (
         <Options actionProvider={actionProvider} getOptions={getMoodOptions} />
       ),
     },
     {
-      widgetName: 'jokeOptions',
+      widgetName: "jokeOptions",
       widgetFunc: ({ actionProvider }) => (
         <Options actionProvider={actionProvider} getOptions={getJokeOptions} />
       ),
     },
     {
-      widgetName: 'personalOptions',
+      widgetName: "personalOptions",
       widgetFunc: ({ actionProvider }) => (
         <Options
           actionProvider={actionProvider}
@@ -101,20 +101,52 @@ const config = {
       ),
     },
     {
-      widgetName: 'experienceOptions',
-      widgetFunc: () => <ExperienceCards />,
+      widgetName: "experienceOptions",
+      widgetFunc: ({ actionProvider }) => (
+        <div>
+          <ExperienceCards />
+          <Options
+            actionProvider={actionProvider}
+            getOptions={getPersonalOptions}
+          />
+        </div>
+      ),
     },
     {
-      widgetName: 'projectsOptions',
-      widgetFunc: () => <ProjectCards />,
+      widgetName: "projectsOptions",
+      widgetFunc: ({ actionProvider }) => (
+        <div>
+          <ProjectCards />
+          <Options
+            actionProvider={actionProvider}
+            getOptions={getPersonalOptions}
+          />
+        </div>
+      ),
     },
     {
-      widgetName: 'skillsOptions',
-      widgetFunc: () => <SkillCards />,
+      widgetName: "skillsOptions",
+      widgetFunc: ({ actionProvider }) => (
+        <div>
+          <SkillCards />
+          <Options
+            actionProvider={actionProvider}
+            getOptions={getPersonalOptions}
+          />
+        </div>
+      ),
     },
     {
-      widgetName: 'blogsOptions',
-      widgetFunc: () => <BlogCards />,
+      widgetName: "blogsOptions",
+      widgetFunc: ({ actionProvider }) => (
+        <div>
+          <BlogCards />
+          <Options
+            actionProvider={actionProvider}
+            getOptions={getPersonalOptions}
+          />
+        </div>
+      ),
     },
   ],
 };
