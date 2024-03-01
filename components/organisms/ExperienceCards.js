@@ -1,18 +1,11 @@
-import React from 'react';
-import ExperienceCard from '../molecules/ExperienceCard';
+import React from "react";
+import ExperienceCard from "../molecules/ExperienceCard";
 
 const experiences = [
   {
-    name: "LPL Financial",
-    position: "Incoming Software Engineer Intern",
-    date: "Summer 2024",
-    imgSrc: "lplfinancial.png",
-    works: ["Data Analytics Team"],
-  },
-  {
     name: "Sage Bionetworks",
-    position: "Incoming Software Engineer Intern",
-    date: "Spring 2024",
+    position: "Software Engineer Intern",
+    date: "Jan 2024 - Present",
     imgSrc: "sagebionetworks.png",
     works: ["Technology Platforms & Services team"],
   },
@@ -21,12 +14,7 @@ const experiences = [
     position: "Backend Developer",
     date: "Jul 2023 - Present",
     imgSrc: "texaslum.png",
-    works: [
-      "Minimized latency (30 ms -> 460 μs) inherent in querying data from Amazon RDS utilizing Amazon Elasticache",
-      "Designed PostgreSQL relational databases to provide optimized and streamlined queries from clients, APIs, and tests",
-      "Developed 30+ core REST APIs using Node.js and facilitated unit testing through Jest with 100% code coverage",
-      "Implemented GitHub Actions CI/CD pipeline to automate the execution of unit tests and deployment process",
-    ],
+    works: ["Build Team: MusicMate"],
   },
   {
     name: "Jober",
