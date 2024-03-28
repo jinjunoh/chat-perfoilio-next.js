@@ -82,7 +82,7 @@ function LinksBar() {
             </Typography>
           </Box>
           <a
-            href="https://drive.google.com/file/d/1d0x1pGMw6_c5_dOetNy62FVX_CTt8An0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BQJk8CuK11vqxst1VvgcswpYBh6rVeLc/view?usp=drive_link"
             target="_blank"
             rel="noreferrer"
           >
