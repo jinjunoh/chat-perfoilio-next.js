@@ -8,8 +8,8 @@ const experiences = [
     date: "June 2024 - Present",
     imgSrc: "lplfinancial.png",
     works: [
-      "Generated OpenAPI specifications and .NET APIs for profile dashboard, utilized by 22,000+ financial advisors",
-      "Modernized ART ClientWorks application by UI implementations and migrating Angular.js from version 8 to 15",
+      "Designed centralized OpenAPI specs and .NET APIs to revoke and extract credentials of “Third Party Marketer” related metadata from SQL Server and ForgeRock, effectively decoupling 10,000+ records from the database",
+      "Modernized legacy Angular framework, minimizing bundle size by 40% and introducing lazy loading of modules",
       "Adhered to Test-Driven Development to create unit tests for APIs using NUnit, achieving 90% code coverage",
     ],
   },
@@ -19,8 +19,8 @@ const experiences = [
     date: "Jan 2024 - May 2024",
     imgSrc: "sagebionetworks.png",
     works: [
-      "Developed and shipped Feature Flag service for Synapse, replacing 35+ experimental features utilizing AWS AppConfig and Java Servlet, providing real-time rollbacks, and decoupling code deployments from releases",
-      "Optimized rendering cycles by 25%, by migrating legacy GWT data query widgets to React.js and MUI library",
+      "Implemented real-time rollbacks for 35+ experimental features with feature flags utilizing AWS AppConfig and Java Servlet, provisioning AWS Infrastructure as Code with CloudFormation templates and Jenkins",
+      "Optimized rendering cycles by 25% by migrating legacy GWT data query widgets to React.js and TypeScript",
       "Developed node-based visualization tools for data workflows in Synapse using React Flow and TypeScript",
       "Enhanced Github Actions CI/CD pipeline by using Playwright to develop E2E test suites for Synapse Portals ",
     ],
