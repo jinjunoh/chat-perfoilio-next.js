@@ -5,12 +5,12 @@ import {
   Card,
   IconButton,
   Typography,
-} from '@mui/material';
-import Image from 'next/image';
-import React, { useState } from 'react';
-import { Avatar } from '@mui/material';
-import { grey } from '@mui/material/colors';
-import LaunchRoundedIcon from '@mui/icons-material/LaunchRounded';
+} from "@mui/material";
+import Image from "next/image";
+import React, { useState } from "react";
+import { Avatar } from "@mui/material";
+import { grey } from "@mui/material/colors";
+import LaunchRoundedIcon from "@mui/icons-material/LaunchRounded";
 
 function ExperienceCard({
   name,
@@ -28,10 +28,10 @@ function ExperienceCard({
       variant="outlined"
       sx={{
         padding: 2,
-        display: 'flex',
-        flexDirection: 'row',
+        display: "flex",
+        flexDirection: "row",
         marginBottom: 1,
-        border: isDetailed ? 'none' : '',
+        border: isDetailed ? "none" : "",
       }}
       width="100%"
     >

@@ -64,7 +64,7 @@ const config = {
   botName: "Jin Jun Oh",
   initialMessages: [
     createChatBotMessage(
-      "Hi, I'm JJ. Nice to meet you! I How are you doing today?",
+      "Hi, I'm JJ. Nice to meet you! I How are you doing today? (Click on the mood button to get started)",
       {
         widget: "moodOptions",
       }

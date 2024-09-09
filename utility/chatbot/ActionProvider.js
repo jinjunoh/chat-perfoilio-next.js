@@ -18,7 +18,7 @@ class ActionProvider {
 
   greet() {
     const greetingMessage = this.createChatBotMessage(
-      "AI chat in development..."
+      "AI chat in development... (Click on the mood button to continue)"
     );
     this.updateChatbotState(greetingMessage);
   }
