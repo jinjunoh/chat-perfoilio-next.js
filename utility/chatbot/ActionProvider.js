@@ -3,7 +3,7 @@
 const intro =
   "I'm an ECE Honors student @ UT Austin and an aspiring software engineer. What do you want to know about me?";
 const experience =
-  "I am currently a Software Engineer Intern @ Sage Bionetworks where I improved testing efficiency and updated legacy systems utilizing Typescript, React, and Playwright.";
+  "I interned summer 2024 @ LPL Financial where I utilized .NET and Angular to manage services that are consumed daily by Financial Advisors. I also interned Spring 2024 @ Texas Luminescence where I improved testing efficiency and updated legacy systems utilizing Typescript, React, and Playwright.";
 const projects =
   "I'm love spotting problems from people around me and building solutions that make their lives easier.";
 const skills =
